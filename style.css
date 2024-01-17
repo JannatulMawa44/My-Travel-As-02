@@ -790,21 +790,165 @@ padding-top: 20px;
    height: 200px;
 }
 
+}
 
+@media (max-width: 600px) {
+   .footer {
+      width: 100%;
+      height: auto;
+      margin-top: 0;
+   }
 
- 
+   .fot-name {
+      padding-left: 0;
+      padding-top: 20px; /* Adjust as needed */
+   }
+
+   .fot-des {
+      padding-top: 10px; /* Adjust as needed */
+   }
+
+   .p {
+      padding-top: 20px; /* Adjust as needed */
+   }
+   .title-1{
+      text-align: center;
+   }
 }
    
+@media (max-width: 600px) {
+   #blog-banner-section-7 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 0;
+      padding-top: 100px;
+      padding-bottom: -400px;
+   }
+
+   .img-7 {
+      width: 100%; /* Make the image responsive */
+      height: auto;
+      margin-left: 0;
+      padding-top: 600px;
+    
+     
+   }
+
+   .input,
+   .bt {
+      width: 100%;
+      /* Make the input and button responsive */
+   }
+
+   .dis {
+      margin-left: 0;
+   }
+}  
+
+@media (max-width: 600px) {
+   #blog-banner-section-6 {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem 1rem;
+   }
+
+   .benner-heading-6 {
+      font-size: 32px;
+      line-height: 48px;
+      width: 100%; /* Make the heading responsive */
+      margin-top: -100px;
+   }
+
+   .benner-img-6 {
+      width: 100%; /* Make the image responsive */
+      height: auto;
+      margin-top: -60px;
+      font-size: small;
+    
+   }
+
+   .des-6 {
+      margin-left: 0;
+   }
+}
+
+
+@media (max-width: 600px) {
+   .img-college-2 {
+      height: auto; /* Make the image responsive */
+   }
+
+   .abc,
+   .acb {
+      width: 100%; /* Make the boxes responsive */
+      height: auto;
+      margin-top: -100px;
+   }
+
+   .div-h,
+   .div-des,
+   .price,
+   .bt-l {
+      margin-left: 20px;
+      margin-top: 50px;
+      text-align: center;
+   }
+}
+
+
+@media (max-width: 600px) {
+   .main-div-1 {
+      flex-direction: column;
+      
+   }
+
+   .div-1,
+   .div-2,
+   .div-c {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+   }
+
+   .hotel-head,
+   .hotel-des {
+      text-align: center; /* Center text for mobile layout */
+      margin-left: 0;
+   }
+}
+
+@media (max-width: 600px) {
+   .benner-heading-3 {
+      font-size: 32px; /* Adjust font size for mobile */
+      padding-top: 100px;
+   }
    
+   .benner-des-3 {
+      font-size: 14px; /* Adjust font size for mobile */
+   }
 
+   .bn-img-1,
+   .bn-img-2,
+   .bn-img-3 {
+      padding: 10px; /* Adjust padding for mobile */
+   }
 
+   .des-1,
+   .des-2,
+   .des-3,
+   .des-4,
+   .des-5,
+   .des-6 {
+      font-size: 20px; /* Adjust font size for mobile */
+      margin-top: -100px; /* Adjust margin for mobile */
+   }
 
-
-
-
-
-
-
+   .img-college {
+      height: auto; /* Make the image responsive */
+   }
+}
 
 
 
